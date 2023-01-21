@@ -1,0 +1,87 @@
+.parent{
+    width: 50%;
+    padding-left: 100px;
+}
+input[type="checkbox"]{
+   margin-left: 25px;
+   width: 18px;
+   height: 18px;
+   padding-top: 3px;
+   border-radius: 5px;
+   transition: 0.2s;
+   border: 1px solid #1a73e8 ;
+   /* appearance: none; */
+ 
+
+}
+.fildParent{
+    width: 300px;
+    margin-top: 20px ;
+    display: flex;
+    flex-direction: column;
+}
+.logIn{
+   margin-bottom: 50px;
+   color:rgb(55, 123, 225);
+   font-size: 32px;
+}
+.linkParent{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.linkParent input{
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius:5px;
+    background-color:#1a73e8;
+    color: aliceblue;
+    font-size: bold;
+}
+.linkParent a{
+    width: 70px;
+    height: 30px;
+    color:#1a73e8;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+span{
+    color:rgb(255, 71, 71);
+    margin-top: 3px;
+    font-size: 13px;
+    width: fit-content;
+    background-color: rgb(255, 232, 232);
+    
+}
+label{
+    color:rgb(76, 76, 76);
+}
+.fild {
+    border: 1px solid silver ;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.fildErr {
+    border:1px solid rgb(245, 168, 168);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px red;
+    transition: 0.5s;
+}
+.fild:focus ,
+.fildErr:focus{
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    border: 1px solid #1a73e8 ;
+  
+    /* background-color:rgb(220, 245, 255); */
+}
+input{
+    height: 28px;
+}
+.accept{
+    display: flex;
+}

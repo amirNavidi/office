@@ -1,0 +1,49 @@
+.parent {
+    width: 80%;
+    height: 550px;
+    background-color:rgba(220, 220, 220, 0.792);
+    margin-left: 300px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.parent > p{
+    font-size: 28px;
+    width: 890px;
+    font-weight: bolder;
+    /* border: 1px solid #000; */
+    margin:100px auto ;
+}
+.iconParent {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    border:1px solid rgba(220, 220, 220, 0.792);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+.icon{
+    font-size: 28px;
+
+}
+
+.section{
+    width: 300px;
+    text-align: center;
+}
+.section h1 , p{
+    margin-top: 20px;
+}
+.section p{
+    color :rgba(90, 90, 90, 0.792)
+}
+
+.iconFather{
+    display: flex;
+    justify-content: space-around;
+}

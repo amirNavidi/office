@@ -1,0 +1,58 @@
+.parent{
+    width: 80%;
+    height: 100vh;
+    background: url("../images/consultant-m-reverse-1.jpg") center center no-repeat ;
+    background-size: cover;
+    margin-left: 300px;
+    position: relative;
+
+
+}
+
+.container{
+    width: 430px;
+    position: absolute;
+    right:100px;
+    top:280px;
+}
+.container h1{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    /* top: -80px; */
+    animation: top 1.5s 1 forwards;
+}
+.container p{
+    font-size: 20px;
+    margin-top: 30px;
+    position: relative;
+    /* bottom: -80px; */
+    animation: down  1.5s  1  forwards;
+
+}
+@keyframes down {
+
+    from{
+        bottom: -40px;
+    }
+    to{
+        bottom: 0;
+    }
+    
+}
+
+@keyframes top {
+
+    from{
+        top: -40px;
+    }
+    to{
+        top: 0;
+    }
+}
+
+
+
+
+
+
